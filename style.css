@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: pink;
+}
+
+.scrapbook {
+    width: 300px;
+    height: 400px;
+    margin: 50px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    position: relative;
+}
+
+.page {
+    display: none;
+}
+
+.page.active {
+    display: block;
+}
+
+img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+button {
+    position: absolute;
+    bottom: 20px;
+    font-size: 18px;
+    padding: 10px;
+    background: rgb(255, 255, 255);
+    border: none;
+    cursor: pointer;
+}
+
+#prev {
+    left: 30%;
+}
+
+#next {
+    right: 30%;
+}
